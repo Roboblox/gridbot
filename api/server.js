@@ -3,7 +3,7 @@ const server = express();
 // server.use(express.json()); // remember to invoke json()
 
 server.get("/", (req, res) => {
-  res.status(200).json({ hello: "Hello from the web" });
+  res.status(200).json({ message: "hello", port: `${process.env.PORT}` });
 });
 
 module.exports = server;
