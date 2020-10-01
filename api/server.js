@@ -3,7 +3,7 @@ const server = express();
 // server.use(express.json()); // remember to invoke json()
 
 server.get("/", (req, res) => {
-  res.status(200).json({ hello: "Hello" });
+  res.status(200).json({ hello: "Hello from the web" });
 });
 
 module.exports = server;
