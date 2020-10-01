@@ -1,0 +1,27 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roboblox/gridbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Roboblox/gridbot/issues"
+  },
+  "homepage": "https://github.com/Roboblox/gridbot#readme",
+  "description": ""
+}
